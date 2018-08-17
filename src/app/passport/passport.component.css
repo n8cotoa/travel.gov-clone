@@ -1,0 +1,39 @@
+.passport {
+  margin: 10px 50px;
+}
+
+.passport-splash {
+  background-image: url("../../assets/img/passport.jpg");
+  height: 20vw;
+}
+
+.passport-splash h3 {
+  padding-top: 20px;
+  margin: 10px 25px;
+  color: white;
+}
+
+.col-md-8 {
+  border-right: .5px grey solid;
+}
+
+.feature-box {
+  background-color: #E2EDFF;
+  margin: 10px 5px;
+  height: 200px;
+  width: 48%;
+  float: left;
+}
+
+.feature-box p {
+  margin-left: 10px;
+}
+
+.feature-header {
+  background-color: #CED9EA;
+  padding: 10px 10px;
+}
+
+.feature-body p {
+  padding: 1em;
+}

@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PassportComponent } from './passport/passport.component';
+import { InternationalComponent } from './international/international.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { PassportComponent } from './passport/passport.component';
     NavbarComponent,
     HeaderComponent,
     FooterComponent,
-    PassportComponent
+    PassportComponent,
+    InternationalComponent
   ],
   imports: [
     BrowserModule

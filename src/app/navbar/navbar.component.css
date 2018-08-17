@@ -3,20 +3,30 @@
   color: #a4aeba;
   top: 0px;
   right: 0px;
+  height: 70px;
 }
 
 .navbar ul {
   margin-right: 25px;
   float: right;
-  margin: 10px 0px;
+  margin: 14.4px 0px;
+  margin-right: 30px;
   display: block;
+}
+.flag-link {
+  text-align: left;
+  float: left;
+  padding: 0px;
+  margin: 0px 0px 0px 3px;
+  font-size: .8em;
+  /* line-height: 1.1em; */
+  width: 130px;
 }
 
 .navbar a {
   color: #919ba7;
-  line-height: .9em;
-  font-size: .9em;
   padding: 0px 5px;
+  font-size: .9em;
 }
 
 .navbar li {
@@ -31,7 +41,7 @@
   margin: 2px 7px 0px 2px;
 }
 
-.flag {
+/* .flag {
   float: left;
   background-image: url('../../assets/icons/united-states.svg');
   background-size: contain;
@@ -39,14 +49,4 @@
   height: 28px;
   width: 37px;
   margin: 2px 7px 0px 2px;
-}
-
-.flag-link {
-  text-align: left;
-  float: left;
-  padding: 0px;
-  margin: 0px 0px 0px 3px;
-  font-size: .8em;
-  line-height: 1.1em;
-  width: 130px;
-}
+} */

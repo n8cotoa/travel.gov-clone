@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #0e2949;
+  color: #a4aeba;
+  top: 0px;
+  right: 0px;
+}
+
+.navbar ul {
+  margin-right: 25px;
+  float: right;
+  margin: 10px 0px;
+  display: block;
+}
+
+.navbar a {
+  color: #919ba7;
+  line-height: .9em;
+  font-size: .9em;
+  padding: 0px 5px;
+}
+
+.navbar li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+.navbar li img {
+  width: 37px;
+  margin: 2px 7px 0px 2px;
+}
+
+.flag {
+  float: left;
+  background-image: url('../../assets/icons/united-states.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 37px;
+  margin: 2px 7px 0px 2px;
+}
+
+.flag-link {
+  text-align: left;
+  float: left;
+  padding: 0px;
+  margin: 0px 0px 0px 3px;
+  font-size: .8em;
+  line-height: 1.1em;
+  width: 130px;
+}

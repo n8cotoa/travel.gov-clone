@@ -1,6 +1,54 @@
-# TravelGovClone
+# Travel.State.Gov Clone/Revamp
+
+#### Epicodus Angular Independent Project, Aug 17, 2018
+
+#### Nate Cottle
+
+## Description
+
+A clone of the Travel.State.Gov website with a revamped design.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+### Installing
+
+Complete the steps below to clone the project on to your personal machine and get the application running.
+
+Clone the repo from github to your machine
+
+```
+git clone https://github.com/reeseglasscock/tap-room.git
+```
+
+This program is dependent that you already have node installed on your machine and node package manager. Afterwards run the install command.
+
+```
+npm install
+```
+
+You will then need to make sure you have a firebase account and a database available to store and retrieve information. Go to https://console.firebase.google.com/ to sign up and create your database for your project. Create a file in the root of your app folder named api-keys.ts and paste in the information for adding firebase as a web app. Follow the pattern below for creating the file:
+
+```
+export const masterFirebaseConfig = {
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "YOUR_AUTH_DOMAIN_HERE",
+  databaseURL: "YOUR_DATABASE_URL_HERE",
+  projectId: "YOUR_PROJECT_ID_HERE",
+  storageBucket: "YOUR_STORAGE_BUCKET_HERES",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE"
+}
+```
+
+To run the program run the command from the project file:
+
+```
+npm run start
+```
+
+Point your browser to localhost:4200
+```
+open http://localhost:4200/
+```
 
 ## Development server
 
@@ -25,3 +73,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## License
+
+This software is licensed under the MIT license.
+
+Copyright (c) 2018 **Nate Cottle**

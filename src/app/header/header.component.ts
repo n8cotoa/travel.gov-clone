@@ -12,8 +12,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  tocClick() {
-    return 'background-red'
+  scrollToElement($element): void {
+    console.log($element);
+    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 
 }

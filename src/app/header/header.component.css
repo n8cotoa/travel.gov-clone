@@ -1,7 +1,7 @@
 .header {
   background-color : #21487b;
   color: white;
-  height: 10vw;
+  height: 12vw;
 }
 
 .name {
@@ -39,7 +39,7 @@
 
 .table-of-contents {
   background-color: #0e2949;
-  height: 80px;
+  height: 70px;
 }
 
 .table-of-contents ul {
@@ -57,7 +57,7 @@
 .table-of-contents h4 {
   text-align: center;
   position: relative;
-  top: 13px;
+  top: 12px;
   width: 105%;
   height: 58px;
   font-size: 0.9em;

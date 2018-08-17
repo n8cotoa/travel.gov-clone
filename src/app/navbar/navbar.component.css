@@ -4,15 +4,21 @@
   top: 0px;
   right: 0px;
   height: 60px;
+  width: 100%;
+}
+
+.navbar-links {
+  position: absolute;
+  top: 35px;
+  right: 20px;
 }
 
 .navbar ul {
-  margin-right: 25px;
-  float: right;
-  margin: 25px 0px;
-  margin-right: 30px;
-  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
 .flag-link {
   text-align: left;
   float: left;
@@ -20,7 +26,7 @@
   margin: -28px 0px 0px 3px;
   font-size: .8em;
   line-height: 1.1em;
-  width: 101px;
+  width: 126px;
 }
 
 .navbar a {
@@ -33,9 +39,7 @@
   text-decoration: none;
   list-style-type: none;
   display: inline-block;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+
 
 }
 

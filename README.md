@@ -17,26 +17,13 @@ Complete the steps below to clone the project on to your personal machine and ge
 Clone the repo from github to your machine
 
 ```
-git clone https://github.com/reeseglasscock/tap-room.git
+git clone https://github.com/n8cotoa/travel.gov-clone
 ```
 
 This program is dependent that you already have node installed on your machine and node package manager. Afterwards run the install command.
 
 ```
 npm install
-```
-
-You will then need to make sure you have a firebase account and a database available to store and retrieve information. Go to https://console.firebase.google.com/ to sign up and create your database for your project. Create a file in the root of your app folder named api-keys.ts and paste in the information for adding firebase as a web app. Follow the pattern below for creating the file:
-
-```
-export const masterFirebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_AUTH_DOMAIN_HERE",
-  databaseURL: "YOUR_DATABASE_URL_HERE",
-  projectId: "YOUR_PROJECT_ID_HERE",
-  storageBucket: "YOUR_STORAGE_BUCKET_HERES",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE"
-}
 ```
 
 To run the program run the command from the project file:

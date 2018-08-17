@@ -1,0 +1,28 @@
+.header {
+  background-color : #21487b;
+  color: white;
+  height: 10vw;
+}
+
+.name {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  font-size: 2em;
+}
+
+.tagline {
+  font-size: .9em;
+  line-height: 1em;
+  border-top: solid 1px white;
+  padding-top: 5px;
+  width: 430px;
+}
+
+.table-of-contents {
+  background-color: #0e2949;
+  height: 100px;
+}

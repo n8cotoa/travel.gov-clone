@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PassportComponent } from './passport/passport.component';
 import { InternationalComponent } from './international/international.component';
+import { VisaComponent } from './visa/visa.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,7 +27,8 @@ export const firebaseConfig = {
     HeaderComponent,
     FooterComponent,
     PassportComponent,
-    InternationalComponent
+    InternationalComponent,
+    VisaComponent
   ],
   imports: [
     BrowserModule,

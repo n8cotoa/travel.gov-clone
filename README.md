@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * As a user I would like to be able to search the website using a search bar. - difficult
 * As a user I would like a 'table of contents' that allows me to quickly access information by scrolling down the main page to my query - medium - mostly done, can jump to different sections, but no smooth scrolling
 * As a user I would like a footer on the page that includes extra information that I might find useful. -easy - done
-* As a user I would like there to be a section based on each item in the table of contents - medium - 2/5ths done
+* As a user I would like there to be a section based on each item in the table of contents - medium - 3/5ths done
 
 ### Installing
 

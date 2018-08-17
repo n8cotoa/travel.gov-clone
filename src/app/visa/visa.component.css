@@ -1,0 +1,24 @@
+.visa {
+  margin: 10px 50px;
+}
+
+.visa-splash {
+  background-image: url("../../assets/img/visa.jpg");
+  height: 20vw;
+  margin-bottom: 10px;
+  background-position: center;
+}
+
+.visa-splash h3 {
+  padding-top: 20px;
+  margin: 10px 25px;
+  color: white;
+}
+
+.col-md-8 {
+  border-right: .5px grey solid;
+}
+
+.side {
+  margin-top: 10px;
+}

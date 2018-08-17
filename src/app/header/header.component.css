@@ -42,8 +42,30 @@
   height: 80px;
 }
 
+.table-of-contents ul {
+  list-style-type: none;
+  color: white;
+  display: block;
+  margin-left: 20px;
+}
+
+.table-of-contents li {
+  display: inline-block;
+}
+
+.table-of-contents h4 {
+  text-align: center;
+  position: relative;
+  top: 13px;
+  width: 105%;
+  height: 58px;
+  font-size: 1.2em;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
 .toc-line-blue {
   background-color: red;
   /* background-color: #0e2949; */
-  height: 20px;
+  height: 5px;
 }

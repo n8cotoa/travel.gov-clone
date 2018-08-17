@@ -6,13 +6,21 @@
 
 ## Description
 
-A clone of the Travel.State.Gov website with a revamped design.
+A clone of the Travel.State.Gov website with a revamped design with the focus to combine the main sections of the website into one page.
 
 Original Webpage: https://travel.state.gov/content/travel.html
 
 Deployed Webpage: https://travel-gov-clone.firebaseapp.com/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+### User Stories
+
+* As a user I would like a navigation bar with essentials about the site, including contact, blog, etc. - easy -done
+* As a user I would like to be able to search the website using a search bar. - difficult
+* As a user I would like a 'table of contents' that allows me to quickly access information by scrolling down the main page to my query - medium - mostly done, can jump to different sections, but no smooth scrolling
+* As a user I would like a footer on the page that includes extra information that I might find useful. -easy - done
+* As a user I would like there to be a section based on each item in the table of contents - medium - 2/5ths done
 
 ### Installing
 

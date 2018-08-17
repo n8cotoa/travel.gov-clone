@@ -6,6 +6,7 @@
   background-image: url("../../assets/img/passport.jpg");
   height: 20vw;
   margin-bottom: 10px;
+  background-position: center;
 }
 
 .passport-splash h3 {

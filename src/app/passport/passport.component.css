@@ -5,6 +5,7 @@
 .passport-splash {
   background-image: url("../../assets/img/passport.jpg");
   height: 20vw;
+  margin-bottom: 10px;
 }
 
 .passport-splash h3 {
@@ -17,9 +18,13 @@
   border-right: .5px grey solid;
 }
 
+.side {
+  margin-top: 10px;
+}
+
 .feature-box {
   background-color: #E2EDFF;
-  margin: 10px 5px;
+  margin: 5px 5px;
   height: 200px;
   width: 48%;
   float: left;
@@ -36,4 +41,8 @@
 
 .feature-body p {
   padding: 1em;
+}
+
+.contact {
+  padding: 20px;
 }

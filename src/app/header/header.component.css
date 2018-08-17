@@ -10,6 +10,20 @@
   transform: translateY(-50%);
 }
 
+.logo {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 100px;
+
+}
+
 .title {
   font-size: 2em;
 }
@@ -20,6 +34,7 @@
   border-top: solid 1px white;
   padding-top: 5px;
   width: 430px;
+  display: inline;
 }
 
 .table-of-contents {

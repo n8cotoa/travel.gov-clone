@@ -51,6 +51,7 @@
 
 .table-of-contents li {
   display: inline-block;
+  margin-right: 30px;
 }
 
 .table-of-contents h4 {
@@ -59,13 +60,24 @@
   top: 13px;
   width: 105%;
   height: 58px;
-  font-size: 1.2em;
+  font-size: 0.9em;
   margin-right: 20px;
-  padding-top: 10px;
+  padding: 10px 10px 0px 10px;
+}
+
+.table-of-contents h4:hover {
+  background-color: #304762;
 }
 
 .toc-line-blue {
-  background-color: red;
-  /* background-color: #0e2949; */
+  background-color: #0e2949;
   height: 5px;
+}
+
+.toc-line-red {
+  background-color: #bd403a;
+}
+
+.bg-red {
+  background-color: #bd403a;
 }

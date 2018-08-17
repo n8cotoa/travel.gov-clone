@@ -22,3 +22,12 @@
   font-size: .9em;
   margin-bottom: 20px;
 }
+
+.footer-close {
+  background-color: #0e2949;
+}
+
+.footer-close img {
+  width: 37px;
+  margin-left: 50px;
+}
